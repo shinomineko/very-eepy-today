@@ -1,0 +1,35 @@
+:root {
+  --text: #000;
+  --bg: #fafafa;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #dfdfdf;
+    --bg: #0e0e0e;
+  }
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.eepy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.eepy img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
